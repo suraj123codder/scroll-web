@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'manjukolkar007/test-dev:latest'
+        DOCKER_IMAGE = 'Bharath7253/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
         DOMAIN       = 'micro123.duckdns.org'
     }
@@ -114,4 +114,5 @@ pipeline {
         }
     }
 }
+
 
