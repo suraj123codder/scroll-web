@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-app-c5
-        image: suraj23j/project-1
+        image: suraj23j/project-1:latest
         ports:
         - containerPort: 80
 ---
