@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'suraj23j/project-1'
+        DOCKER_IMAGE = 'suraj23j/project-1:latest'
         DEPLOY_FILE  = 'deploy.yaml'
         DOMAIN       = 'sj23.duckdns.org'
     }
